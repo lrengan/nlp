@@ -25,6 +25,7 @@ def print_token(t):
     print('lemma: ', t.lemma_)
     print('shape: ', t.shape_)
 
+
 for token in tokens:
     print_token(token)
 
