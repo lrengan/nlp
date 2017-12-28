@@ -123,6 +123,8 @@ def extract_date(line1):
 
 # end extract_date()
 
+
+# Quick test of extract_date()
 i = 0
 for line in doc:
     d = extract_date(line)
